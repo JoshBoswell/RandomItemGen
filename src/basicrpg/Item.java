@@ -10,12 +10,12 @@ package basicrpg;
  * @author 1502110
  */
 public abstract class Item {
-    float damage;
-    int speed;
-    int range;
-    ItemType type;
+    int damage;
+    float speed;
+    float range;
+    Type type;
     
-    public enum ItemType{
+    public enum Type{
         ARMOR,
         WEAPON,
         JEWELRY
